@@ -1,15 +1,22 @@
 # ----
 # Site
 
-title: Path of Building CE
-url: "https://pathofbuilding.community/"
+title: Path of Building -- Community Edition
+url: "https://pob.github.com"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: A Path of Exile build planner
-author: POB Community
+description: Product marketing template for Jekyll.
+author: 
+  name: The Path of Building Community
+  email:
+  twitter: # twitter username without the @ symbol
 social:
-  name: POB
+  name: Path of Building
   links:
     - https://github.com/PathOfBuildingCommunity/PathOfBuilding
 
@@ -56,22 +63,10 @@ defaults:
       path: "index.html"
     values:
       layout: "default"
-  -
-    scope:
-      path: "contact.html"
-    values:
-      full_width: true
 
 jekyll-archives:
   enabled:
     - categories
-
-plugins:
-  - jekyll-archives
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
 
 exclude:
   - Gemfile
@@ -79,3 +74,18 @@ exclude:
   - README.md
   - LICENCE
 
+# -----------
+# CloudCannon
+
+social_icons:
+  - Github
+
+_comments:
+  map: Update the map location and display settings.
+  latitude: Coordinates for the center marker on the map.
+  longitude: Coordinates for the center marker on the map.
+  zoom: The zoom level for the map.
+  pricing_table: Update the information in the pricing tables.
+  highlight: Emphasis the text
+  color: The background colour used in the plan name and call to action.
+  new_window: Open link in new window

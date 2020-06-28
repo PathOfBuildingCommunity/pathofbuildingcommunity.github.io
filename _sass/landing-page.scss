@@ -1,12 +1,56 @@
+@import "mixins/columns";
+
+.app-title {
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.app-subtitle {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.8em;
+}
+
+.bottom-faq {
+	color: white;
+	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
+
+	h2 {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.faq-container {
+		max-width: 1000px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+}
+
 .bottom-cta {
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
 	color: #fff;
-	text-align: center;
 	margin: 0;
 	padding: 100px 0;
 
 	h2 {
 		margin-bottom: 50px;
+		text-align: center
+	}
+
+	.feature-list {
+		margin: 0 auto;
+		max-width: 80%;
+		display: flex;
+
+		ul {
+			list-style-type: disc;
+			width: 50%;
+		}
+	
+		li {
+			line-height: 2em;
+			list-style-type: disc;
+		}
 	}
 }
 
@@ -39,6 +83,10 @@
 
 	p {
 		color: #fff;
+	}
+
+	.text-container {
+		max-width: 1000px;
 	}
 }
 
