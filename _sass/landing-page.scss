@@ -26,6 +26,18 @@
 	}
 }
 
+.cta.button.alt a {
+	margin: 0 auto;
+	display: flex;
+	max-width: 200px;
+	justify-content: center;
+	align-items: center;
+	
+	.social-icon {
+		margin-right: 16px;;
+	}
+}
+
 .bottom-cta {
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
 	color: #fff;
