@@ -116,6 +116,22 @@ description: A powerful build planner for Path of Exile
 				<li>Support for <strong>Ryslatha's Coil, Vaal Arc Lucky Buff, Perquil's Toe</strong> and more</li>
 			</ul>
 		</div>
+		<div class="text editable container" style="line-height: 2em;;">
+			Path of Building Community Edition has been actively maintained for over a year. The list is quite literally too long to fit on this page. In addition to all the features that are added, Openarl's work is integrated in this project too, making sure we also have his latest work included.
+
+			<div style="display: flex; justify-content: center;">
+				<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding"><span id="ahead-commit-count"></span></a>
+				<noscript>Sorry, we rely on Javascript to get the exact number. But it's above a thousand changes.</noscript>
+			</div>
+
+			<script type="text/javascript">
+				fetch("https://api.github.com/repos/Openarl/PathOfBuilding/compare/master...PathOfBuildingCommunity:master")
+					.then(res => res.json())
+					.then(res => {
+						document.getElementById("ahead-commit-count").textContent = res.ahead_by + " changes"
+					})
+			</script>
+		</div>
 	</section>
 	<section class="bottom-faq">
 		<h2>Frequently Asked Questions</h2>
