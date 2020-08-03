@@ -1,0 +1,11 @@
+- name: See the project on github
+  link: https://github.com/pathofbuildingcommunity/pathofbuilding
+  new_window: true
+  highlight: true
+- name: Report an issue
+  link: https://github.com/pathofbuildingcommunity/pathofbuilding/issues
+  new_window: true
+- name: Contributors
+  link: https://github.com/PathOfBuildingCommunity/PathOfBuilding/graphs/contributors
+  new_window: true
+  highlight: false

@@ -1,0 +1,109 @@
+---
+title: Path of Building, Community Edition
+description: A powerful build planner for Path of Exile
+---
+<section class="hero">
+	<div class="text-container">
+		<h1 class="editable app-title">Path of Building</h1>
+		<h2 class="app-subtitle">Community Edition</h2>
+		<p class="subtext editable">A powerful build planner for Path of Exile</p>
+		<div>
+			<img src="{{ site.baseurl }}/images/pob_overview.png" alt="Screenshot" />
+		</div>
+		<div class="cta button alt"><a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases"><span class="social-icon">{% include social-icon.html icon="GitHub" %}</span> Grab the latest release!</a></div>
+	</div>
+</section>
+
+<section class="what-is-this">
+	<div class="text-container">
+		This is a fork of the original Path of Building by Openarl, maintained by community members. Features not originally present have been added, and new mechanics are getting supported regularly. By building upon the abilities of a community of developers and players, as well as an open invitation for anyone to come in and help, we can advance much faster.<br/><br/>
+
+		In practice, this means that we support things such as impale, many minion related calculations, accurate shock calculations, catalysts, anointments, crafting and much more.<br/><br/>
+
+		This project also needs your help! Take a look at the <a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/issues">Issue Tracker</a> if you're a developer that knows some Lua, or help us find out bugs and what is lacking.
+	</div>
+</section>
+
+<div class="content">
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Plan out your skill tree</h2>
+				<p>See which paths are more efficient, let Path of Building advise you on which nodes are the most beneficial to your current build, observe how taking a notable would change your stats.</p>
+			</div>
+			<div class="image">
+				<img src="{{ site.baseurl }}/images/power_preview.png" alt="Screenshot" class="screenshot editable" />
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Which gems would benefit your build the most?</h2>
+				<p>Prepare your links, watch the benefits of socketing them in different items, have suggestions for the most powerful gems to add to your setup.</p>
+			</div>
+			<div class="image">
+				<img src="{{ site.baseurl }}/images/gem_status.png" alt="Screenshot" class="screenshot editable" />
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Build your dream items, and your current self found gear</h2>
+				<p>Path of Building is able to understand most mods that can be found on items and lets you perform anointments, crafting, corruptions and more. Set up gear sets and compare the effects of your changes.</p>
+			</div>
+			<div class="image">
+				<img src="{{ site.baseurl }}/images/item_crafting.png" alt="Screenshot" class="screenshot editable" />
+			</div>
+		</div>
+	</section>
+
+	<section class="bottom-cta">
+		<h2 class="editable center">What has the community added so far?</h2>
+		<div class="feature-list">
+			<ul class="feature-list-column-1">
+				<li><strong>Pantheon support:</strong> Plan out your defenses better by picking your Pantheon powers.</li>
+				<li><strong>Impale:</strong> Damage from Impale is included in your DPS.</li>
+				<li><strong>Mods and crafting:</strong> Delve, fossils and influence are all available, letting you preview the best possible mods on your items.</li>
+				<li><strong>Enemy armour and physical damage reduction</strong></li>
+				<li><strong>Catalysts: </strong> Apply catalysts on your items</li>
+				<li><strong>Influence crafting: </strong> Get the possible mods on your single and dual influence items.</li>
+				<li><strong>Delve helmet mod</strong> support</li>
+				<li><strong>Mechanics: </strong> Elusive, Nighblade, Unleash, Bonechill, Overcharge, Fist of War and more</li>
+				<li><strong>More detailed breakdowns:</strong> View your effective health pool against all types of damage, aura and curse effect, net recovery and more.</li>
+			</ul>
+			<ul>
+				<li><strong>All uniques available: </strong> Every item in the game is available, and is most likely supported.</li>
+				<li><strong>Breakdown</strong> for aura and curse effect</li>
+				<li>More tree highlighting options for <strong>node power</strong> on the tree</li>
+				<li><strong>Plenty of quality of life: </strong> search for all dropdown boxes, item suggestions, filtering nodes by power and opportunity cost</li>
+				<li><strong>Parse</strong> many mods that were missing on the tree</li>
+				<li>Add <strong>oil combinations</strong> to notables on the passive tree and anoint directly when creating items</li>
+				<li>Support for <strong>Elusive</strong> and <strong>Nightblade</strong> support gem</li>
+				<li>Updated and accurate <strong>Shock and Chill</strong> calculations, including the ability to input your own Shock effect</li>
+				<li>Logic for <strong>melee distance scaling attack</strong> multipliers (Close Combat and Slayer's Impact node)</li>
+				<li><strong>Withered</strong> now shows on the configuration screen</li>
+				<li><strong>Items</strong>: Ryslatha's Coil, Perquil's Toe, Thread of Hope</li>
+			</ul>
+		</div>
+		<div class="text editable container" style="line-height: 2em;;">
+			Path of Building Community Edition has been actively maintained for over a year. The list is quite literally too long to fit on this page. In addition to all the features that are added, Openarl's work is integrated in this project too, making sure we also have his latest work included.
+
+			<div style="display: flex; justify-content: center;">
+				<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding"><span id="ahead-commit-count"></span></a>
+				<noscript>Sorry, we rely on Javascript to get the exact number. But it's above a thousand changes.</noscript>
+			</div>
+		</div>
+	</section>
+</div>
+
+<script type="text/javascript">
+	fetch("https://api.github.com/repos/Openarl/PathOfBuilding/compare/master...PathOfBuildingCommunity:master")
+		.then(res => res.json())
+		.then(res => {
+			document.getElementById("ahead-commit-count").textContent = res.ahead_by + " changes"
+		})
+</script>

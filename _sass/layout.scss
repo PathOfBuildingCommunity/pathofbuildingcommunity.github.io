@@ -1,0 +1,186 @@
+.container, .text-container {
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+.text-container {
+	max-width: 750px;
+}
+
+.container {
+	max-width: 1140px;
+	&.max-container {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+.what-is-this {
+	display: flex;
+	padding-top: 50px;
+	color: white;
+}
+
+header {
+	color: #fff;
+	padding: 32px 0;
+	background: $brand-color; /* Old browsers */
+	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		z-index: 1;
+		position: relative;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.company-name {
+		font-size: 1.7em;
+		line-height: 0;
+		font-weight: 900;
+
+		a {
+			display: inline-block;
+		}
+
+		img {
+			display: block;
+			width: auto;
+		}
+	}
+}
+
+.content {
+	background: #fff;
+	padding: 1px 0 0 0;
+	position: relative;
+}
+
+.screenshot{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	box-shadow: 0 1px 0 #ccc, 0 1px 0 1px #eee;
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #DDD url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%0A%20%20%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20%20%20viewBox%3D%220%200%2051.899834%207.3467851%22%0A%20%20%20height%3D%227.3467851%22%0A%20%20%20width%3D%2251.899834%22%3E%0A%20%20%3Cpath%0A%20%20%20%20%20id%3D%22path38%22%0A%20%20%20%20%20d%3D%22M%2037.898404%2C6.9644807%2043.518142%2C0.32297109%22%0A%20%20%20%20%20style%3D%22fill%3Anone%3Bstroke%3A%23000000%3Bstroke-width%3A1px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%20%2F%3E%0A%20%20%3Cpath%0A%20%20%20%20%20id%3D%22path40%22%0A%20%20%20%20%20d%3D%22M%2037.834975%2C0.30637739%2043.502244%2C7.0097907%22%0A%20%20%20%20%20style%3D%22fill%3Anone%3Bstroke%3A%23000000%3Bstroke-width%3A0.914212px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%20%2F%3E%0A%20%20%3Crect%0A%20%20%20%20%20y%3D%220.5080052%22%0A%20%20%20%20%20x%3D%2218.79323%22%0A%20%20%20%20%20height%3D%226.37778%22%0A%20%20%20%20%20width%3D%228.3611345%22%0A%20%20%20%20%20id%3D%22rect42%22%0A%20%20%20%20%20style%3D%22fill%3Anone%3Bfill-rule%3Aevenodd%3Bstroke%3A%23000000%3Bstroke-width%3A0.797323%3Bstroke-miterlimit%3A4%3Bstroke-dasharray%3Anone%3Bstroke-opacity%3A1%22%20%2F%3E%0A%20%20%3Cpath%0A%20%20%20%20%20id%3D%22path871%22%0A%20%20%20%20%20d%3D%22M%200%2C6.7888497%20H%209.068215%22%0A%20%20%20%20%20style%3D%22fill%3Anone%3Bstroke%3A%23000000%3Bstroke-width%3A1px%3Bstroke-linecap%3Abutt%3Bstroke-linejoin%3Amiter%3Bstroke-opacity%3A1%22%20%2F%3E%0A%3C%2Fsvg%3E%0A') right 6px no-repeat;
+	padding: 20px 0 0 0;
+	position: relative;
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 12px 20px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+section {
+	padding: 50px 0;
+}
+
+section + section {
+	padding-top: 0;
+}
+
+.subtext {
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.cta {
+	margin: 60px 0;
+}
+
+.page h2 {
+	text-align: center;
+}
+
+blockquote {
+	padding: 18px 25px;
+	margin: 0;
+	quotes: "\201C""\201D""\2018""\2019";
+	font-style: italic;
+
+	.author {
+		display: block;
+		font-weight: bold;
+		margin: 10px 0 0 0;
+		font-size: .85em;
+		font-style: normal;
+	}
+
+	p {
+		display: inline;
+	}
+}
+
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.square-image {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	margin: 25px auto 0 auto;
+	position: relative;
+	border-radius: 200px;
+
+	img {
+		position: absolute;
+		left: -1000%;
+		right: -1000%;
+		top: -1000%;
+		bottom: -1000%;
+		margin: auto;
+		width: 300px;
+	}
+}
+
+.page {
+	margin-bottom: 0;
+	padding-bottom: 80px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.editor-link {
+ 	display: none;
+	margin-top: 0;
+	.btn {
+		border: 0;
+		border-radius: 2px;
+		width: 100%;
+		max-width: 500px;
+		box-sizing: border-box;
+		font-size: 2rem;
+		text-decoration: none;
+		padding: 10px 15px;
+		margin: 0;
+		font-size: 18px;
+		cursor: pointer;
+		background-color: #f7e064;
+		color: #333;
+		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+		&:hover {
+			background-color: #f4d525;
+			color: #333;
+		}
+	}
+
+}
