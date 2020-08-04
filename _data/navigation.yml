@@ -9,3 +9,7 @@
   link: https://github.com/PathOfBuildingCommunity/PathOfBuilding/graphs/contributors
   new_window: true
   highlight: false
+- name: Main page
+  link: /
+  new_window: false
+  highlight: false
