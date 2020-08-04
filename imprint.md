@@ -1,6 +1,7 @@
 ---
 title: Impressum
 layout: page
+sitemap: false
 ---
 ### Informationspflicht laut § 5 E-Commerce-Gesetz und Offenlegungspflicht laut § 25 Mediengesetz
 

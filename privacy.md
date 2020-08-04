@@ -1,6 +1,7 @@
 ---
 title: Datenschutzerklärung
 layout: page
+sitemap: false
 ---
 ### Datenschutz
 

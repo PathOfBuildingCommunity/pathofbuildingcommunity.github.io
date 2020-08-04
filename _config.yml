@@ -66,6 +66,9 @@ jekyll-archives:
   enabled:
     - categories
 
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - Gemfile
   - Gemfile.lock
