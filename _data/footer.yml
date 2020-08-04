@@ -1,4 +1,16 @@
 - links:
-  - name: Github page
+  - name: Project page
     link: https://github.com/PathOfBuildingCommunity/PathOfBuilding
     new_window: true
+- links:
+  - name: Improve this website
+    link: https://github.com/PathOfBuildingCommunity/pathofbuildingcommunity.github.io
+    new_window: true
+- links:
+  - name: Imprint
+    link: /imprint/
+    new_window: false
+- links:
+  - name: Privacy
+    link: /privacy/
+    new_window: false

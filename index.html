@@ -1,11 +1,11 @@
 ---
-title: Path of Building, Community Edition
+title: Path of Building Community Fork
 description: A powerful build planner for Path of Exile
 ---
 <section class="hero">
 	<div class="text-container">
 		<h1 class="editable app-title">Path of Building</h1>
-		<h2 class="app-subtitle">Community Edition</h2>
+		<h2 class="app-subtitle">Community Fork</h2>
 		<p class="subtext editable">A powerful build planner for Path of Exile</p>
 		<div>
 			<img src="{{ site.baseurl }}/images/pob_overview.png" alt="Screenshot" />
@@ -16,11 +16,10 @@ description: A powerful build planner for Path of Exile
 
 <section class="what-is-this">
 	<div class="text-container">
-		This is a fork of the original Path of Building by Openarl, maintained by community members. Features not originally present have been added, and new mechanics are getting supported regularly. By building upon the abilities of a community of developers and players, as well as an open invitation for anyone to come in and help, we can advance much faster.<br/><br/>
-
-		In practice, this means that we support things such as impale, many minion related calculations, accurate shock calculations, catalysts, anointments, crafting and much more.<br/><br/>
-
-		This project also needs your help! Take a look at the <a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/issues">Issue Tracker</a> if you're a developer that knows some Lua, or help us find out bugs and what is lacking.
+		This project is open source and needs your skills!
+		Take a look <a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/master/CONTRIBUTING.md">here</a> to see how you can help us out.
+		<br>
+		Don't worry, you don't have to be a programmer to contribute to issues or documentation.
 	</div>
 </section>
 
@@ -29,7 +28,7 @@ description: A powerful build planner for Path of Exile
 		<div class="container flex">
 			<div class="text editable">
 				<h2>Plan out your skill tree</h2>
-				<p>See which paths are more efficient, let Path of Building advise you on which nodes are the most beneficial to your current build, observe how taking a notable would change your stats.</p>
+				<p>See which paths are more efficient, let Path of Building advise you on which nodes are the most beneficial to your current build, observe how taking a notable passive point would change your stats.</p>
 			</div>
 			<div class="image">
 				<img src="{{ site.baseurl }}/images/power_preview.png" alt="Screenshot" class="screenshot editable" />
@@ -41,7 +40,7 @@ description: A powerful build planner for Path of Exile
 		<div class="container flex">
 			<div class="text editable">
 				<h2>Which gems would benefit your build the most?</h2>
-				<p>Prepare your links, watch the benefits of socketing them in different items, have suggestions for the most powerful gems to add to your setup.</p>
+				<p>Prepare your skill gem links, watch the benefits of socketing them in different items, have suggestions for the most powerful gems to add to your setup.</p>
 			</div>
 			<div class="image">
 				<img src="{{ site.baseurl }}/images/gem_status.png" alt="Screenshot" class="screenshot editable" />
@@ -65,33 +64,31 @@ description: A powerful build planner for Path of Exile
 		<h2 class="editable center">What has the community added so far?</h2>
 		<div class="feature-list">
 			<ul class="feature-list-column-1">
-				<li><strong>Pantheon support:</strong> Plan out your defenses better by picking your Pantheon powers.</li>
-				<li><strong>Impale:</strong> Damage from Impale is included in your DPS.</li>
-				<li><strong>Mods and crafting:</strong> Delve, fossils and influence are all available, letting you preview the best possible mods on your items.</li>
-				<li><strong>Enemy armour and physical damage reduction</strong></li>
-				<li><strong>Catalysts: </strong> Apply catalysts on your items</li>
-				<li><strong>Influence crafting: </strong> Get the possible mods on your single and dual influence items.</li>
-				<li><strong>Delve helmet mod</strong> support</li>
-				<li><strong>Mechanics: </strong> Elusive, Nighblade, Unleash, Bonechill, Overcharge, Fist of War and more</li>
-				<li><strong>More detailed breakdowns:</strong> View your effective health pool against all types of damage, aura and curse effect, net recovery and more.</li>
+				<li><strong>Pantheon</strong> gods: Plan out your defenses better by picking your Pantheon powers.</li>
+				<li>Mechanics: <strong>Impale</strong>, Elusive, Warcries and Exerted Attacks, Unleash, Bonechill, Fist of War and more.</li>
+				<li><strong>All uniques</strong> available: Both older and latest ones are up to date with most of their mods supported.</li>
+				<li>Unique mechanics: Ryslatha's Coil, Perquil's Toe, <strong>Thread of Hope</strong>, Split Personality and more.</li>
+				<li>Gem mechanics: <strong>Warcries and Brands</strong>, Arcane Cloak, Spellslinger, Archmage, Bonechill and more.</li>
+				<li>Skill Tree: Added <strong>oil combinations</strong> to notables on the passive skill tree, highlight nodes by per-point power and opportunity cost.</li>
+				<li>Keystones: The Agnostic, Crimson Dance, Eternal Youth, <strong>Glancing Blows</strong>, Imbalanced Guard and more.</li>
+				<li>Alternative <strong>Ailments</strong>: Scorch, Brittle and Sap.</li>
+				<li>Added many spectres: <strong>Redemption Sentry</strong>, Baranite Thaumaturge, Baranite Sister and more.</li>
 			</ul>
 			<ul>
-				<li><strong>All uniques available: </strong> Every item in the game is available, and is most likely supported.</li>
-				<li><strong>Breakdown</strong> for aura and curse effect</li>
-				<li>More tree highlighting options for <strong>node power</strong> on the tree</li>
-				<li><strong>Plenty of quality of life: </strong> search for all dropdown boxes, item suggestions, filtering nodes by power and opportunity cost</li>
-				<li><strong>Parse</strong> many mods that were missing on the tree</li>
-				<li>Add <strong>oil combinations</strong> to notables on the passive tree and anoint directly when creating items</li>
-				<li>Support for <strong>Elusive</strong> and <strong>Nightblade</strong> support gem</li>
-				<li>Updated and accurate <strong>Shock and Chill</strong> calculations, including the ability to input your own Shock effect</li>
-				<li>Logic for <strong>melee distance scaling attack</strong> multipliers (Close Combat and Slayer's Impact node)</li>
-				<li><strong>Withered</strong> now shows on the configuration screen</li>
-				<li><strong>Items</strong>: Ryslatha's Coil, Perquil's Toe, Thread of Hope</li>
+				<li>UI for <strong>anointing items</strong>: Search notables, sort them by node power and preview their effects.</li>
+				<li>Apply <strong>Catalysts</strong> to rare and unique items, craft (double) influenced items, filter mods by Prefix or Suffix.</li>
+				<li><strong>Configurable Shock</strong> value with guaranteed sources of Shock applying automatically.</li>
+				<li>Minimum and average <strong>calculation modes</strong> for Ailments, Regeneration, Armour and effective health pool.</li>
+				<li>More <strong>detailed breakdowns</strong>: View your effective health pool against all types of damage, Aura and Curse Effect, effective Recovery and more.</li>
+				<li>Plenty of <strong>quality of life</strong>: Search in drop-down lists, fit more jewels into comparison view, additional sorting options for skill gems, unique items and node power.</li>
+				<li><strong>Parsing for various mods</strong> on the passive tree, cluster jewels, skill gems, ascendancies and uniques.</li>
+				<li>Lots of small improvements and bug fixes.</li>
 			</ul>
 		</div>
 		<div class="text editable container" style="line-height: 2em;;">
-			Path of Building Community Edition has been actively maintained for over a year. The list is quite literally too long to fit on this page. In addition to all the features that are added, Openarl's work is integrated in this project too, making sure we also have his latest work included.
-
+			Path of Building Community is a fork of the original Path of Building by Openarl. It is actively maintained by Path of Exile community members for over a year now.<br/>
+			Features not originally present have been added, new mechanics are getting supported regularly and any work on the original is integrated as well.<br/>
+			Want to join us? We would be glad to have you! Take a look <a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/master/CONTRIBUTING.md">here</a> to see how you can participate in the project.
 			<div style="display: flex; justify-content: center;">
 				<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding"><span id="ahead-commit-count"></span></a>
 				<noscript>Sorry, we rely on Javascript to get the exact number. But it's above a thousand changes.</noscript>
