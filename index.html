@@ -91,18 +91,6 @@ description: A powerful build planner for Path of Exile
 			Path of Building Community is a fork of the original Path of Building by Openarl. It is actively maintained by Path of Exile community members for over a year now.<br/>
 			Features not originally present have been added, new mechanics are getting supported regularly, and any work on the original is integrated as well.<br/>
 			Want to join us? We would be glad to have you! Take a look <a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/master/CONTRIBUTING.md">here</a> to see how you can participate in the project.
-			<div style="display: flex; justify-content: center;">
-				<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding"><span id="ahead-commit-count"></span></a>
-				<noscript>Sorry, we rely on Javascript to get the exact number. But it's above a thousand changes.</noscript>
-			</div>
 		</div>
 	</section>
 </div>
-
-<script type="text/javascript">
-	fetch("https://api.github.com/repos/Openarl/PathOfBuilding/compare/master...PathOfBuildingCommunity:master")
-		.then(res => res.json())
-		.then(res => {
-			document.getElementById("ahead-commit-count").textContent = res.ahead_by + " changes"
-		})
-</script>
