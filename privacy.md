@@ -58,3 +58,5 @@ Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht v
 ### TLS-Verschlüsselung per HTTPS
 
 Wir verwenden TLS, um Daten abhörsicher im Internet zu übertragen (Datenschutz durch Technikgestaltung Artikel 25 Absatz 1 DSGVO). Durch den Einsatz von TLS (Transport Layer Security), einem Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet können wir den Schutz vertraulicher Daten sicherstellen. Sie erkennen die Benutzung dieser Absicherung der Datenübertragung an der Verwendung des Schemas `https://` (anstelle von `http://`) als Teil unserer Internetadresse.
+
+Quelle: Erstellt mit dem [Datenschutz-Generator](https://www.adsimple.at/datenschutz-generator/) von AdSimple
