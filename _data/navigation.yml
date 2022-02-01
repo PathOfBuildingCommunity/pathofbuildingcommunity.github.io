@@ -7,7 +7,7 @@
   new_window: true
   highlight: false
 - name: Report an issue
-  link: https://github.com/PathOfBuildingCommunity/PathOfBuilding/issues
+  link: https://github.com/PathOfBuildingCommunity/PathOfBuilding/issues/new/choose
   new_window: true
   highlight: false
 - name: See the project on github
