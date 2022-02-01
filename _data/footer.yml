@@ -1,10 +1,12 @@
 - links:
   - name: Project page
     link: https://github.com/PathOfBuildingCommunity/PathOfBuilding
+    social_icon: GitHub
     new_window: true
 - links:
   - name: Improve this website
     link: https://github.com/PathOfBuildingCommunity/pathofbuildingcommunity.github.io
+    social_icon: GitHub
     new_window: true
 - links:
   - name: Imprint

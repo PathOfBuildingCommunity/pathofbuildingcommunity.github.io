@@ -40,10 +40,6 @@ defaults:
     values:
       layout: "default"
 
-jekyll-archives:
-  enabled:
-    - categories
-
 plugins:
   - jekyll-sitemap
 
