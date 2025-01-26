@@ -13,7 +13,6 @@
 		margin: 15px auto;
 
 		@media #{$tablet} {
-			max-width: 160px;
 			text-align: center;
 		}
 		a {
@@ -103,10 +102,7 @@ footer {
 
 	a {
 		text-decoration: none;
-
-		&:hover {
-			color: #fff;
-		}
+		color: #fff;
 	}
 
 	.legal-line {

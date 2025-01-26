@@ -8,11 +8,3 @@
     link: https://github.com/PathOfBuildingCommunity/pathofbuildingcommunity.github.io
     social_icon: GitHub
     new_window: true
-- links:
-  - name: Imprint
-    link: /imprint/
-    new_window: false
-- links:
-  - name: Privacy
-    link: /privacy/
-    new_window: false
