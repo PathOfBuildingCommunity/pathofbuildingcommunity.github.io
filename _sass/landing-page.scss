@@ -29,19 +29,14 @@
 .cta.button.alt a {
 	margin: 0 auto;
 	display: flex;
-	max-width: 40%;
+	width: fit-content;
 	justify-content: center;
 	align-items: center;
 	
 	.social-icon {
-		margin-right: 16px;
-		max-width: 80px;
+		margin: 2%;
+		width: 80px;
 	}
-}
-
-.releases {
-	color: inherit;
-	text-decoration: underline;
 }
 
 .bottom-cta {

@@ -17,9 +17,6 @@
 		}
 		a {
 
-			&:hover {
-				text-decoration: none;
-			}
 			svg {
 				fill: #999;
 				margin-right: 10px;
@@ -82,11 +79,6 @@ footer {
 		}
 
 	}
-	
-	&,
-	a {
-		color: #999;
-	}
 
 	h2 {
 		font-size: 1.4em;
@@ -98,11 +90,6 @@ footer {
 		@extend %flexbox;
 		@include flex-flow(wrap);
 		margin: -10px -10px 10px -10px;
-	}
-
-	a {
-		text-decoration: none;
-		color: #fff;
 	}
 
 	.legal-line {

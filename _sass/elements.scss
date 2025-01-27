@@ -1,5 +1,6 @@
 html {
 	background: #2b2b40;
+	min-width: 300px;
 }
 
 html, body {
@@ -12,12 +13,25 @@ body {
 }
 
 a {
-	color: #00a4ca;
+	color: inherit;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
+}
+
+div.text a {
+	font-weight: bold;
+}
+
+div.button a div {
+	word-break:break-all;
+	margin: 2%;
+	span {
+		white-space: nowrap;
+		display: inline-block;
+	}
 }
 
 img {
