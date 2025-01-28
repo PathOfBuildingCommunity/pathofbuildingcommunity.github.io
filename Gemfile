@@ -11,3 +11,4 @@ end
 gem 'tzinfo', '>= 2.0' if Gem.win_platform?
 gem 'tzinfo-data', '>= 1.2020' if Gem.win_platform?
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem "webrick", "~> 1.9"

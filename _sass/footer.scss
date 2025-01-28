@@ -13,14 +13,10 @@
 		margin: 15px auto;
 
 		@media #{$tablet} {
-			max-width: 160px;
 			text-align: center;
 		}
 		a {
 
-			&:hover {
-				text-decoration: none;
-			}
 			svg {
 				fill: #999;
 				margin-right: 10px;
@@ -77,16 +73,13 @@ footer {
 	.copyright {
 		font-size: .8em;
 		margin: 0 auto;
-		
+
 		@media #{$tablet} {
 			text-align: center;
 		}
-
-	}
-	
-	&,
-	a {
-		color: #999;
+		a {
+			color: #999;
+		}
 	}
 
 	h2 {
@@ -99,12 +92,8 @@ footer {
 		@extend %flexbox;
 		@include flex-flow(wrap);
 		margin: -10px -10px 10px -10px;
-	}
 
-	a {
-		text-decoration: none;
-
-		&:hover {
+		a {
 			color: #fff;
 		}
 	}

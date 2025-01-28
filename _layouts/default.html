@@ -17,7 +17,12 @@
 		</header>
 		{{ content }}
 		<footer>
-			<div class="container">
+			<div class="container" style="margin-left: auto; margin-right: auto;">
+				<div class="text editable" style="line-height: 2em; text-align: center;">
+					Path of Building Community is a fork of the original Path of Building by Openarl. It is now actively maintained by Path of Exile community members.<br/>
+					Features not originally present have been added, new mechanics are getting supported regularly, and any work on the original is integrated as well.<br/>
+					Want to join us? We would be glad to have you! Take a look <a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/master/CONTRIBUTING.md">here</a> to see how you can participate in the project.
+				</div>
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
 				<div class="footer-columns">
 					{% for column in site.data.footer %}

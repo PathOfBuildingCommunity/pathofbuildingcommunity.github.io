@@ -29,18 +29,18 @@
 .cta.button.alt a {
 	margin: 0 auto;
 	display: flex;
-	max-width: 150px;
+	width: fit-content;
 	justify-content: center;
 	align-items: center;
 	
 	.social-icon {
-		margin-right: 16px;;
+		margin: 2%;
+		width: 80px;
 	}
 }
 
 .releases {
 	color: inherit;
-	text-decoration: underline;
 }
 
 .bottom-cta {
@@ -55,13 +55,15 @@
 	}
 
 	.feature-list {
-		margin: 0 auto;
-		max-width: 80%;
+		max-width: fit-content;
+		margin-left: auto;
+		margin-right: auto;
 		display: flex;
+		justify-content: center;
 
 		ul {
 			list-style-type: disc;
-			width: 50%;
+			width: 38%;
 		}
 	
 		li {
@@ -97,13 +99,12 @@
 	text-align: center;
 	background: linear-gradient(to bottom, $middle-gradient-color 0%, $secondary-brand-color 100%) no-repeat #a05fb7;
 	padding-top: 50px;
-
 	p {
 		color: #fff;
 	}
 
 	.text-container {
-		max-width: 1000px;
+		max-width: 2280px;
 	}
 }
 
