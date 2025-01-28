@@ -73,11 +73,13 @@ footer {
 	.copyright {
 		font-size: .8em;
 		margin: 0 auto;
-		
+
 		@media #{$tablet} {
 			text-align: center;
 		}
-
+		a {
+			color: #999;
+		}
 	}
 
 	h2 {
@@ -90,6 +92,10 @@ footer {
 		@extend %flexbox;
 		@include flex-flow(wrap);
 		margin: -10px -10px 10px -10px;
+
+		a {
+			color: #fff;
+		}
 	}
 
 	.legal-line {

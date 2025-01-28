@@ -39,6 +39,10 @@
 	}
 }
 
+.releases {
+	color: inherit;
+}
+
 .bottom-cta {
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
 	color: #fff;
@@ -52,8 +56,8 @@
 
 	.feature-list {
 		max-width: fit-content;
-  		margin-left: auto;
-  		margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 		display: flex;
 		justify-content: center;
 
