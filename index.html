@@ -1,124 +1,278 @@
----
-title: Path of Building Community Fork
-description: A powerful build planner for Path of Exile
----
-<section class="hero" style="padding-top: 0px;">
-	<div class="text-container">
-		<h1 class="editable app-title">Path of Building</h1>
-		<h2 class="app-subtitle">A powerful build planner for Path of Exile</h2>
-		<div class="flex">
-			<div class="cta">
-				<div class="cta">
-					<img src="{{ site.baseurl }}/images/pob2_overview.png" alt="Screenshot" />
-				</div>
-				<div class="cta button alt">
-					<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases/latest/download/PathOfBuildingCommunity-PoE2-Setup.exe ">
-						<img class="social-icon" src="{{ site.baseurl }}/images/poe2_icon.png" alt="Path of Exile 1 logo"/>
-						<div>
-							<span>Download</span>
-							<span>for</span>
-							<span>Path of Exile 2!</span>
-						</div>
-					</a>
-				</div>
-				<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases" class="releases">
-					See all releases
-				</a>
-			</div>
-			<div class="cta">
-				<div class="cta">
-					<img src="{{ site.baseurl }}/images/pob_overview.png" alt="Screenshot" />
-				</div>
-				<div class="cta button alt">
-					<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/latest/download/PathOfBuildingCommunity-Setup.exe">
-						<img class="social-icon" src="{{ site.baseurl }}/images/poe1_icon.png" alt="Path of Exile 2 logo"/>
-						<div>
-							<span>Download</span>
-							<span>for</span>
-							<span>Path of Exile!</span>
-						</div>
-					</a>
-				</div>
-				<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases" class="releases">
-					See all releases
-				</a>
-			</div>
-		</div>
-	</div>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Path of Building Community | Build Planner for Path of Exile</title>
+  <meta name="description" content="Path of Building Community, the build planner for Path of Exile 1 and 2.">
+  <link rel="canonical" href="https://pathofbuilding.community/">
+  <meta name="theme-color" content="#0c0c0e">
+  <meta property="og:site_name" content="Path of Building Community">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Path of Building Community">
+  <meta property="og:description" content="The community build planner for Path of Exile 1 and 2.">
+  <meta property="og:url" content="https://pathofbuilding.community/">
+  <meta property="og:image" content="https://pathofbuilding.community/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Path of Building Community">
+  <meta name="twitter:description" content="The community build planner for Path of Exile 1 and 2.">
+  <meta name="twitter:image" content="https://pathofbuilding.community/assets/og-image.jpg">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="home">
+  <header class="topbar">
+    <div class="shell nav">
+      <a class="brand" href="#top" aria-label="Path of Building home"><img class="brand-logo" src="assets/favicon.ico" alt=""><span>Path of Building</span></a>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a href="#features">Capabilities</a>
+        <a href="downloads.html"><svg class="download-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M8 2.3v7.1m0 0 3-3m-3 3-3-3M3 12.7h10"/></svg>Downloads</a>
+        <a class="github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/dev/CONTRIBUTING.md"><span class="github-icon" aria-hidden="true"></span>Contribute</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="what-is-this">
-	<div class="text text-container">
-		This project is open source and needs your skills!
-		Take a look <a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/master/CONTRIBUTING.md">here</a> to see how you can help out.
-		<br>
-		Don't worry, you don't have to be a programmer to contribute to issues or documentation.
-	</div>
-</section>
+  <main id="top">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <div class="kicker">Community fork · Open source planner</div>
+          <h1>Path of Building</h1>
+          <p class="subtitle">The community build planner for Path of Exile 1 and 2.</p>
+          <div class="cta-row hero-downloads">
+            <a class="btn game-download poe1" data-download="poe1-setup" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/latest" aria-label="Download Path of Building for Path of Exile 1">
+              <img src="assets/poe1-icon.png" alt="">
+              <span class="btn-copy"><strong>Download Path of Building</strong><small>for Path of Exile 1</small></span>
+            </a>
+            <a class="btn game-download poe2" data-download="poe2-setup" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases/latest" aria-label="Download Path of Building for Path of Exile 2">
+              <img src="assets/poe2-icon.png" alt="">
+              <span class="btn-copy"><strong>Download Path of Building</strong><small>for Path of Exile 2</small></span>
+            </a>
+          </div>
+          <div class="secondary-links">
+            <a href="downloads.html">All releases</a>
+            <a class="github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding"><span class="github-icon" aria-hidden="true"></span>Path of Building PoE1 GitHub</a>
+            <a class="github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2"><span class="github-icon" aria-hidden="true"></span>Path of Building PoE2 GitHub</a>
+          </div>
+          <div class="release-micro" role="status" aria-live="polite">
+            <span><b data-live="poe1-version">Checking GitHub</b>PoE1</span>
+            <span><b data-live="poe2-version">Checking GitHub</b>PoE2</span>
+            <span><b>5k+</b>GitHub stars</span>
+          </div>
+        </div>
+        <div class="workstation reveal">
+          <div class="screen-frame">
+            <button class="screenshot-trigger" type="button" data-full="assets/pob2-overview.jpg" data-caption="Path of Building for Path of Exile 2 · build overview" aria-label="Open Path of Building overview screenshot">
+              <img src="assets/pob2-overview.jpg" alt="Path of Building desktop interface showing a passive tree, stats panel, and tooltip calculations" decoding="async">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="content">
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>Plan out your skill tree</h2>
-				<p>See which paths are more efficient, let Path of Building advise you on which nodes are the most beneficial to your current build, observe how taking a notable passive point would change your stats.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/power_preview.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
+    <section class="trust-section">
+      <ul class="shell status-row reveal">
+        <li class="status-item"><b>Open source</b><span>MIT-licensed community fork with public code and releases.</span></li>
+        <li class="status-item"><b>Community maintained</b><span>Built by players who understand league mechanics.</span></li>
+        <li class="status-item"><b>GitHub project</b><span>Issues, pull requests, and changelogs stay public.</span></li>
+        <li class="status-item"><b>Automatic updates</b><span>All update checks run from inside the planner, with release assets published through GitHub.</span></li>
+      </ul>
+    </section>
 
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>Which gems would benefit your build the most?</h2>
-				<p>Prepare your skill gem links, watch the benefits of socketing them in different items, have suggestions for the most powerful gems to add to your setup.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/gem_status.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
+    <section id="features">
+      <div class="shell">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Planning surface</div>
+            <h2>Plan the tree, gems, items, and calculations in one workspace.</h2>
+          </div>
+          <p>Use the tree, skills, items, and defenses together while checking build changes.</p>
+        </div>
+        <div class="features">
+          <article class="feature reveal">
+            <div><h3>Plan out your skill tree</h3><p>Compare pathing options, review node impact, and check how passive changes affect your stats.</p></div>
+            <button class="screenshot-trigger" type="button" data-full="assets/power-preview.jpg" data-caption="Power Report · passive node efficiency preview" aria-label="Open passive tree planning screenshot">
+              <img src="assets/power-preview.jpg" alt="Passive skill tree node comparison screenshot" loading="lazy" decoding="async">
+            </button>
+          </article>
+          <article class="feature reveal">
+            <div><h3>Detailed build calculations</h3><p>View damage, life, energy shield, resistances, armour, recovery, and effective health in the same planning surface as the tree and equipment you are testing.</p></div>
+            <button class="screenshot-trigger" type="button" data-full="assets/pob2-overview.jpg" data-caption="Build overview · calculations and tree state" aria-label="Open build calculations screenshot">
+              <img src="assets/pob2-overview.jpg" alt="Build stats and calculation sidebar screenshot" loading="lazy" decoding="async">
+            </button>
+          </article>
+          <article class="feature reveal">
+            <div><h3>Compare skill and support gem setups</h3><p>Set up skill links, compare socketed supports, and review gem changes against your character stats.</p></div>
+            <button class="screenshot-trigger" type="button" data-full="assets/gem-status.jpg" data-caption="Skill gem and support gem planning" aria-label="Open skill gem planning screenshot">
+              <img src="assets/gem-status.jpg" alt="Gem planning interface screenshot" loading="lazy" decoding="async">
+            </button>
+          </article>
+          <article class="feature reveal">
+            <div><h3>Create, edit, and compare items</h3><p>Path of Building understands most item modifiers and supports anointments, crafting, corruptions, gear sets, and item comparisons.</p></div>
+            <button class="screenshot-trigger" type="button" data-full="assets/item-crafting.jpg" data-caption="Item crafting and gear comparison" aria-label="Open item crafting screenshot">
+              <img src="assets/item-crafting.jpg" alt="Item crafting and gear comparison screenshot" loading="lazy" decoding="async">
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
 
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>Build your dream items, and your current self found gear</h2>
-				<p>Path of Building is able to understand most mods that can be found on items and lets you perform anointments, crafting, corruptions, and more. Set up gear sets and compare the effects of your changes.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/item_crafting.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
+    <section id="community-added">
+      <div class="shell legacy-copy reveal">
+        <div class="legacy-intro">
+          <div>
+            <div class="eyebrow">Community additions</div>
+            <h2>What has the community added so far?</h2>
+          </div>
+          <p>Path of Building Community is a fork of the original Path of Building by Openarl. It is actively maintained by Path of Exile community members, with new mechanics supported regularly and original project work integrated as well.</p>
+        </div>
+        <ul class="addition-summary">
+          <li><b>Mechanics</b><span>League systems, ailments, warcries, brands, spectres, and keystone mechanics.</span></li>
+          <li><b>Optimization</b><span>Power Report, Timeless Jewel seeds, Trade API searches, and item comparison workflows.</span></li>
+          <li><b>Sharing</b><span>Import, export, build links, character API support, and community-tool integration.</span></li>
+        </ul>
+        <div class="addition-grid">
+          <article class="addition-card">
+            <h3>Defenses and combat mechanics</h3>
+            <p>Community updates add support for league mechanics, defensive systems, ailments, and combat interactions.</p>
+            <ul>
+              <li><strong>Pantheon</strong> gods for planning defensive power choices.</li>
+              <li><strong>Impale</strong>, Exposure, Elusive, Warcries, Exerted Attacks, Bonechill, and more.</li>
+              <li>Alternative <strong>Ailments</strong>: Scorch, Brittle, and Sap.</li>
+              <li><strong>eHP estimation</strong> gives you a quick overview of your build's real survivability.</li>
+            </ul>
+          </article>
+          <article class="addition-card">
+            <h3>Passive tree intelligence</h3>
+            <p>Passive tree tools help compare notables, cluster jewels, opportunity cost, node power, and jewel seeds in context.</p>
+            <ul>
+              <li><strong>Power Report</strong> ranks passive skills and cluster jewels to prioritise upgrades.</li>
+              <li>Oil combinations on notables, node power highlights, and opportunity-cost analysis.</li>
+              <li><strong>Keystone mechanics</strong> including The Agnostic, Crimson Dance, Eternal Youth, Glancing Blows, and Imbalanced Guard.</li>
+              <li><strong>Timeless Jewel</strong> tools find the right seed, visualize tree modifications in your build, and generate trade searches.</li>
+            </ul>
+          </article>
+          <article class="addition-card">
+            <h3>Items, uniques, and crafting</h3>
+            <p>Gear planning includes item modifiers, unique mechanics, crafting options, and comparison workflows.</p>
+            <ul>
+              <li><strong>All uniques</strong> available, steadily updated, with most mods supported.</li>
+              <li><strong>Trade API integration</strong> helps search the real game market for item upgrades that fit your build.</li>
+              <li>Perquil's Toe, Thread of Hope, Split Personality, and more unique mechanics.</li>
+              <li>Apply <strong>Catalysts</strong>, craft influenced items, and filter mods by Prefix or Suffix.</li>
+            </ul>
+          </article>
+          <article class="addition-card">
+            <h3>Skills, gems, and minions</h3>
+            <p>Skill and support planning stays close to the rest of the build, so gem changes can be judged against real character stats.</p>
+            <ul>
+              <li><strong>Alternate Quality</strong> skill gems, with most effects already supported.</li>
+              <li><strong>Warcries</strong> and <strong>Brands</strong>, Awakened Spell Echo, Vaal Arc, Carrion Golem, and more.</li>
+              <li>Added many spectres, including <strong>Redemption Sentry</strong>, Baranite Thaumaturge, and Baranite Sister.</li>
+            </ul>
+          </article>
+          <article class="addition-card">
+            <h3>Calculation model and workflow polish</h3>
+            <p>Workflow updates improve search, breakdowns, parsing, sorting, and calculation modes.</p>
+            <ul>
+              <li><strong>Configurable Shock</strong>, with guaranteed sources of Shock applying automatically.</li>
+              <li>Minimum and average <strong>calculation modes</strong> for Ailments, Regeneration, Armour, and effective health.</li>
+              <li>Searchable drop-downs, more jewels in comparison view, extra sorting, broad mod parsing, and bug fixes.</li>
+            </ul>
+          </article>
+          <article class="addition-card">
+            <h3>Import, export, and community sharing</h3>
+            <p>Import, export, and sharing tools help move builds between the game, Path of Building, and community resources.</p>
+            <ul>
+              <li>Import builds through shared links or the <strong>character API</strong>.</li>
+              <li>Export and share builds with the community for guides, reviews, and upgrade planning.</li>
+              <li>Integrate with other community tools so planner data can move through the wider Path of Exile ecosystem.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-	<section class="bottom-cta">
-		<h2 class="editable center">What has the community added so far?</h2>
-		<div class="feature-list">
-			<ul class="feature-list-column-1">
-				<li><strong>Pantheon</strong> gods: Plan out your defenses better by picking your Pantheon powers.</li>
-				<li>Mechanics: <strong>Impale</strong>, Exposure, Elusive, Warcries and Exerted Attacks, Bonechill, and more.</li>
-				<li><strong>All uniques</strong> available: Steadily updated, and with most of their mods supported.</li>
-				<li>Unique mechanics: <strong>Timeless Jewels</strong>, Perquil's Toe, Thread of Hope, Split Personality, and more.</li>
-				<li><strong>Alternate Quality</strong> skill gems: Most effects are already supported.</li>
-				<li>Skill mechanics: <strong>Warcries</strong> and <strong>Brands</strong>, Awakened Spell Echo, Vaal Arc, Carrion Golem, and more.</li>
-				<li>Skill Tree: Added <strong>oil combinations</strong> to notables on the passive skill tree, highlight nodes by per-point power and opportunity cost.</li>
-				<li>Keystones: The Agnostic, Crimson Dance, Eternal Youth, <strong>Glancing Blows</strong>, Imbalanced Guard, and more.</li>
-				<li>Alternative <strong>Ailments</strong>: Scorch, Brittle and Sap.</li>
-				<li>Added many spectres: <strong>Redemption Sentry</strong>, Baranite Thaumaturge, Baranite Sister, and more.</li>
-			</ul>
-			<ul>
-				<li>UI for <strong>anointing items</strong>: Search notables, sort them by node power, and preview their effects.
-				<li><strong>Power Report</strong>: Rank all passive skills on the tree and cluster jewels to prioritise upgrades.</li>
-				<li>Apply <strong>Catalysts</strong> to rare and unique items, craft (double) influenced items, filter mods by Prefix or Suffix.</li>
-				<li><strong>Configurable Shock</strong> value, with guaranteed sources of Shock applying automatically.</li>
-				<li>Minimum and average <strong>calculation modes</strong> for Ailments, Regeneration, Armour, and effective health.</li>
-				<li>More <strong>detailed breakdowns</strong>: View your effective health pool against all types of damage, Aura and Curse Effect, effective Recovery, and more.</li>
-				<li>Plenty of <strong>quality of life</strong>: Search in drop-down lists, fit more jewels into the comparison view, use additional sorting options for skill gems, unique items, and node power.</li>
-				<li><strong>Parsing for various mods</strong> on the passive tree, cluster jewels, skill gems, ascendancies, and uniques.</li>
-				<li>Lots of small improvements and bug fixes.</li>
-			</ul>
-		</div>
-	</section>
-</div>
+    <section id="contribute">
+      <div class="shell">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Community maintenance</div>
+            <h2>Help keep mechanics and data current.</h2>
+          </div>
+          <div>
+            <p class="lead">The project is open source and accepts bug reports, documentation updates, and code contributions. Reproduction builds, clear issue reports, documentation edits, and tested pull requests help maintain support for both game branches.</p>
+            <div class="maintenance-actions">
+            <a class="btn primary github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/issues/new/choose"><span class="github-icon" aria-hidden="true"></span>Report an issue</a>
+            <a class="btn github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/dev/CONTRIBUTING.md"><span class="github-icon" aria-hidden="true"></span>Contribution guide</a>
+            </div>
+          </div>
+        </div>
+        <ul class="contrib-list reveal">
+          <li class="contrib-item"><div><b>Bug reports</b><span>Attach builds, steps, and expected calculations so maintainers can reproduce the issue.</span></div></li>
+          <li class="contrib-item"><div><b>Documentation help</b><span>Update install notes, mechanics explanations, and release guidance.</span></div></li>
+          <li class="contrib-item"><div><b>Code contributions</b><span>Add mechanics, fix calculations, update game data, and maintain both branches.</span></div></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <span>Path of Building Community · actively maintained by Path of Exile community members.</span>
+      <nav aria-label="Footer links">
+        <a class="github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding"><span class="github-icon" aria-hidden="true"></span>Path of Building PoE1 GitHub</a>
+        <a class="github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2"><span class="github-icon" aria-hidden="true"></span>Path of Building PoE2 GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.14 });
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+    const viewer = document.createElement('div');
+    viewer.className = 'image-viewer';
+    viewer.innerHTML = `
+      <div class="viewer-panel" role="dialog" aria-modal="true" aria-label="Screenshot preview" tabindex="-1">
+        <div class="viewer-bar"><span data-viewer-caption>Screenshot</span><button class="viewer-close" type="button" aria-label="Close screenshot preview">×</button></div>
+        <img class="viewer-image" src="" alt="">
+      </div>
+    `;
+    document.body.appendChild(viewer);
+    let lastActiveElement = null;
+    const viewerPanel = viewer.querySelector('.viewer-panel');
+    const viewerImage = viewer.querySelector('.viewer-image');
+    const viewerCaption = viewer.querySelector('[data-viewer-caption]');
+    const closeViewer = () => {
+      viewer.classList.remove('open');
+      viewerImage.removeAttribute('src');
+      lastActiveElement?.focus();
+    };
+    document.querySelectorAll('.screenshot-trigger').forEach((button) => {
+      button.addEventListener('click', () => {
+        lastActiveElement = document.activeElement;
+        viewerImage.src = button.dataset.full;
+        viewerImage.alt = button.querySelector('img')?.alt || 'Path of Building screenshot';
+        viewerCaption.textContent = button.dataset.caption || 'Path of Building screenshot';
+        viewer.classList.add('open');
+        viewerPanel.focus();
+      });
+    });
+    viewer.querySelector('.viewer-close').addEventListener('click', closeViewer);
+    viewer.addEventListener('click', (event) => {
+      if (event.target === viewer) closeViewer();
+    });
+    window.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && viewer.classList.contains('open')) closeViewer();
+    });
+  </script>
+  <script src="assets/github-release-data.js"></script>
+</body>
+</html>

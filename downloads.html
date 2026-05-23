@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download Path of Building | PoE 1 and PoE 2 Releases</title>
+  <meta name="description" content="Download Path of Building Community releases for Path of Exile 1 and 2.">
+  <link rel="canonical" href="https://pathofbuilding.community/downloads.html">
+  <meta name="theme-color" content="#0c0c0e">
+  <meta property="og:site_name" content="Path of Building Community">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Download Path of Building">
+  <meta property="og:description" content="Download Path of Building Community releases for Path of Exile 1 and 2.">
+  <meta property="og:url" content="https://pathofbuilding.community/downloads.html">
+  <meta property="og:image" content="https://pathofbuilding.community/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Download Path of Building">
+  <meta name="twitter:description" content="Download Path of Building Community releases for Path of Exile 1 and 2.">
+  <meta name="twitter:image" content="https://pathofbuilding.community/assets/og-image.jpg">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="downloads">
+  <header class="topbar">
+    <div class="shell nav">
+      <a class="brand-link" href="index.html"><img src="assets/favicon.ico" alt=""><b>Path of Building</b></a>
+      <nav class="nav-links" aria-label="Download navigation">
+        <a class="github-link" href="https://github.com/PathOfBuildingCommunity"><span class="github-icon" aria-hidden="true"></span>GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="shell">
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Download center</div>
+          <h1>Choose the Path of Building release for your game.</h1>
+        </div>
+        <div class="hero-side">
+          <p class="lead">Path of Building has separate releases for Path of Exile 1 and 2. Each release stream includes an installer, portable archive, changelogs, and public issue flow.</p>
+        </div>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Game branch">
+        <button class="tab" id="tab-poe1" type="button" role="tab" aria-controls="poe1" aria-selected="true" tabindex="0" aria-label="Show Path of Building releases for Path of Exile 1"><img src="assets/poe1-icon.png" alt="">Path of Exile 1</button>
+        <button class="tab" id="tab-poe2" type="button" role="tab" aria-controls="poe2" aria-selected="false" tabindex="-1" aria-label="Show Path of Building releases for Path of Exile 2"><img src="assets/poe2-icon.png" alt="">Path of Exile 2</button>
+      </div>
+
+      <section class="release-grid active" id="poe1" role="tabpanel" aria-labelledby="tab-poe1" tabindex="0">
+        <article class="panel">
+          <div class="panel-head"><div class="title-with-logo"><img src="assets/poe1-icon.png" alt="Path of Exile logo"><h2>Path of Building for PoE1</h2></div><span class="badge" data-live="poe1-release-label">Checking GitHub</span></div>
+          <div class="download-list">
+            <div class="download-option"><div><h3>Windows setup installer</h3><p>Installer release for the Path of Exile 1 community fork.</p></div><a class="btn" data-download="poe1-setup" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/latest" aria-label="Download Path of Building PoE1 setup installer">Download setup</a></div>
+            <div class="download-option"><div><h3>Portable archive</h3><p>Portable release for manual installs or separate folders.</p></div><a class="btn secondary" data-download="poe1-portable" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/latest" aria-label="Download Path of Building PoE1 portable archive">Download portable</a></div>
+            <div class="download-option"><div><h3>All PoE1 releases</h3><p>Review changelogs, older versions, and release assets for the PoE1 branch.</p></div><a class="btn secondary" data-download="poe1-releases" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases" aria-label="View all Path of Building PoE1 releases">View releases</a></div>
+          </div>
+        </article>
+        <div class="side">
+          <aside class="release-status" aria-label="Path of Exile 1 release details">
+            <dl>
+              <dt>Latest release</dt><dd><span data-live="poe1-version">Checking GitHub</span></dd>
+              <dt>Published</dt><dd><span data-live="poe1-published">Checking GitHub</span></dd>
+              <dt>Updater</dt><dd>Automatic</dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/latest">GitHub release</a></dd>
+            </dl>
+          </aside>
+          <div class="notes">
+            <h3>Release URL</h3>
+            <div class="copy-row">
+              <input id="poe1-url" type="url" data-live-value="poe1-release-url" value="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/latest" aria-label="Path of Building PoE1 release URL" readonly>
+              <button class="btn secondary" type="button" data-copy="poe1-url" aria-label="Copy Path of Building PoE1 release URL">Copy</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="release-grid" id="poe2" role="tabpanel" aria-labelledby="tab-poe2" tabindex="0" hidden>
+        <article class="panel">
+          <div class="panel-head"><div class="title-with-logo"><img src="assets/poe2-icon.png" alt="Path of Exile 2 logo"><h2>Path of Building for PoE2</h2></div><span class="badge" data-live="poe2-release-label">Checking GitHub</span></div>
+          <div class="download-list">
+            <div class="download-option"><div><h3>Windows setup installer</h3><p>Installer release with the standard update flow.</p></div><a class="btn" data-download="poe2-setup" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases/latest" aria-label="Download Path of Building PoE2 setup installer">Download setup</a></div>
+            <div class="download-option"><div><h3>Portable archive</h3><p>Portable release for manual installs or separate folders.</p></div><a class="btn secondary" data-download="poe2-portable" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases/latest" aria-label="Download Path of Building PoE2 portable archive">Download portable</a></div>
+            <div class="download-option"><div><h3>All PoE2 releases</h3><p>Review changelogs, assets, and previous versions for the PoE2 branch.</p></div><a class="btn secondary" data-download="poe2-releases" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases" aria-label="View all Path of Building PoE2 releases">View releases</a></div>
+          </div>
+        </article>
+        <div class="side">
+          <aside class="release-status" aria-label="Path of Exile 2 release details">
+            <dl>
+              <dt>Latest release</dt><dd><span data-live="poe2-version">Checking GitHub</span></dd>
+              <dt>Published</dt><dd><span data-live="poe2-published">Checking GitHub</span></dd>
+              <dt>Updater</dt><dd>Automatic</dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases/latest">GitHub release</a></dd>
+            </dl>
+          </aside>
+          <div class="notes">
+            <h3>Release URL</h3>
+            <div class="copy-row">
+              <input id="poe2-url" type="url" data-live-value="poe2-release-url" value="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases/latest" aria-label="Path of Building PoE2 release URL" readonly>
+              <button class="btn secondary" type="button" data-copy="poe2-url" aria-label="Copy Path of Building PoE2 release URL">Copy</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <ul class="compare">
+        <li><b>Open source</b><span>Public code, public changelogs, public issues.</span></li>
+        <li><b>Setup + portable</b><span>Both branches expose installer and archive assets.</span></li>
+        <li><b>Auto updates</b><span>Updates are delivered through each branch's release stream.</span></li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <span>Path of Building Community</span>
+      <nav aria-label="Footer links">
+        <a class="github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding"><span class="github-icon" aria-hidden="true"></span>Path of Building PoE1 GitHub</a>
+        <a class="github-link" href="https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2"><span class="github-icon" aria-hidden="true"></span>Path of Building PoE2 GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    const tabs = [...document.querySelectorAll('[role="tab"]')];
+    const panels = [...document.querySelectorAll('[role="tabpanel"]')];
+    const activateTab = (tab, focusTab = false) => {
+      tabs.forEach((item) => {
+        const selected = item === tab;
+        item.setAttribute('aria-selected', String(selected));
+        item.tabIndex = selected ? 0 : -1;
+      });
+      panels.forEach((panel) => {
+        const active = panel.id === tab.getAttribute('aria-controls');
+        panel.hidden = !active;
+        panel.classList.toggle('active', active);
+      });
+      if (focusTab) tab.focus();
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => activateTab(tab));
+      tab.addEventListener('keydown', (event) => {
+        const keyMap = {
+          ArrowLeft: index - 1,
+          ArrowUp: index - 1,
+          ArrowRight: index + 1,
+          ArrowDown: index + 1,
+          Home: 0,
+          End: tabs.length - 1
+        };
+        if (!(event.key in keyMap)) return;
+        event.preventDefault();
+        const nextIndex = (keyMap[event.key] + tabs.length) % tabs.length;
+        activateTab(tabs[nextIndex], true);
+      });
+    });
+
+    document.querySelectorAll('[data-copy]').forEach((button) => {
+      button.addEventListener('click', async () => {
+        const input = document.getElementById(button.dataset.copy);
+        try {
+          await navigator.clipboard.writeText(input.value);
+          button.textContent = 'Copied';
+          setTimeout(() => { button.textContent = 'Copy'; }, 1300);
+        } catch {
+          input.select();
+          document.execCommand('copy');
+        }
+      });
+    });
+  </script>
+  <script src="assets/github-release-data.js"></script>
+</body>
+</html>

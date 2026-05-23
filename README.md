@@ -1,12 +1,13 @@
 # Path of Building Community website
 
-Made with https://github.com/CloudCannon/hydra-jekyll-template
+Static website for https://pathofbuilding.community.
 
-### Developement
-To run the project locally simply run:
+## Local preview
 
-```
-$ docker compose up
-```
+Open `index.html` directly in a browser.
 
-Then go to http://127.0.0.1:4000 
+No build step or local server is required. If you want to preview it through a local HTTP URL that matches GitHub Pages behavior more closely, any static file server can serve the repository root.
+
+## GitHub Pages
+
+This repository is designed to deploy directly from the repository root with GitHub Pages.

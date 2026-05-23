@@ -1,8 +1,4 @@
----
-layout: null
-sitemap: false
----
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
-Disallow: {{ site.url }}/imprint/
-Disallow: {{ site.url }}/privacy/
+Allow: /
+
+Sitemap: https://pathofbuilding.community/sitemap.xml
